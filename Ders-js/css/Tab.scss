@@ -1,0 +1,14 @@
+body{
+    background: rgba(241, 201, 167, 0.801);
+}
+.inner{
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: none;
+    &.active{
+        display: block !important;
+    }
+}
+.btn-tag{
+    margin-right: 13px;
+}

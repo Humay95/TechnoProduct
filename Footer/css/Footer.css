@@ -1,0 +1,41 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+#Footer {
+  height: 800px;
+  background: linear-gradient(#020024 0%, #646adf 0%, #090979 51%, #00d4ff 100%);
+}
+
+.fourth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fourth input {
+  padding: 10px;
+  margin: 15px 0;
+}
+.fourth button {
+  background: violet;
+  border: 1px solid blueviolet;
+  color: burlywood;
+  border-radius: 30px;
+  font-size: 20px;
+  filter: grayscale(30%);
+  padding: 10px 30px;
+}
+
+.first, .second {
+  padding-top: 15px;
+}
+.first li, .second li {
+  list-style: none;
+}
+.first li a, .second li a {
+  text-decoration: none;
+  color: aquamarine;
+}
+
+/*# sourceMappingURL=Footer.css.map */

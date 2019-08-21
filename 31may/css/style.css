@@ -1,0 +1,109 @@
+#header{
+    background:transparent;
+    height: 80px;
+    position: fixed;
+    width: 100%
+}
+.loqo{
+    padding: 40px;
+    padding-top: 23px;
+    
+}
+.menu{
+    list-style: none;
+    padding: 25px 0;
+    text-align: right;
+    word-spacing: 17px;
+
+}
+
+.menu li{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    font-family:"Teko", Arial, Tahoma, sans-serif;
+    color: #DE4F61;
+}
+.menu ul li input{
+    background: #DE4F61;
+    color: white;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+#Shape{
+    background: url(https://themes.muffingroup.com/be/gym3/wp-content/uploads/2019/04/gym3_pic40.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    /* height: 500px; */
+    background-repeat: no-repeat;
+}
+.text-shape{
+    padding: 13%;
+}
+.text-shape h1{
+    font-size:115px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 90px;
+    color: white;
+    font-family: 'Teko',sans-serif;
+}
+.text-shape p{
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 300;   
+    color: white;
+    margin-bottom: 7%;
+    margin-top: 5%;
+}
+.text-shape input{
+    background: #DE4F61;
+    color: white;
+    padding: 16px 15px;
+    border: none;
+    font-weight: 700;
+    transition: all .5s;
+    cursor: pointer;
+
+}
+.text-shape input:hover{
+    background: grey;
+    opacity: 0.5;
+}
+#Tons{
+    background: black;
+    width: 100%;
+    height: 400px;
+}
+.left{
+    background: url(https://themes.muffingroup.com/be/gym3/wp-content/uploads/2019/04/gym3_pic1.jpg);
+    color: white;
+    background-size: cover;
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Teko',sans-serif;
+    font-weight: 700;
+}
+.right{
+    background: url(https://themes.muffingroup.com/be/gym3/wp-content/uploads/2019/04/gym3_pic2.jpg);
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    background-size: cover;
+    font-family: 'Teko',sans-serif;
+    font-weight: 700
+}
+.left p{
+    text-align: center;
+    padding: 100px;
+    font-size: 90px;
+}
+.right p{
+    text-align: center;
+    padding: 55px;
+    font-size: 90px;
+}

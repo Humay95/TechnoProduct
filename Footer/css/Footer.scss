@@ -1,0 +1,38 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#Footer{
+    height: 800px;
+    background: linear-gradient( rgba(2,0,36,1) 0%, rgba(100,106,223,1) 0%, rgba(9,9,121,1) 51%, rgba(0,212,255,1) 100%);
+}
+.fourth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input{
+        padding: 10px;
+        margin: 15px 0;
+    }
+    button{
+        background: violet;
+        border: 1px solid blueviolet;
+        color: burlywood;
+        border-radius: 30px;
+        font-size: 20px;
+        filter: grayscale(30%);
+        padding:10px 30px;
+
+    }
+}
+.first , .second{
+    padding-top: 15px;
+    li{
+        list-style: none;
+        a{
+    text-decoration: none;
+color: aquamarine
+        }
+    }
+    
+}

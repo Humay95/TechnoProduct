@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+#header{
+    background: #082f5f;
+    height: 40px;
+    color: white
+}
+.orta{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0
+}
+.col3{
+    letter-spacing: 1px;
+    display: flex
+}
+.col3 img{
+    width: 15px;
+    height: 15px;
+    margin: 1px 10px;
+    cursor: pointer;
+}
+.col3 a{
+    color: white
+}
+.mesaj a{
+    padding: 0px 7px;
+    transition: all .4s
+}
+.mesaj a:hover{
+    color: #ff9c00
+}
+.social i{
+    padding-right: 10px;
+    cursor: pointer;
+    transition: all .5s
+}
+.a:hover .cityprice{
+    background: #ff9c00
+}
+.social i:hover{
+    color: #ff9c00
+}
+#logo{
+    display: flex;
+    background: rgb(250, 250, 250);
+    padding: 15px 0px;
+    box-shadow: 4px 2px 8px rgb(136, 135, 135);
+}
+.loqo{
+    padding: 0px 12.5%;
+    font-size: 40px;
+}
+.menu{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding: 12px;
+}
+.menu li{
+    display: inline;
+    padding-right: 10px;
+    transition: all .3s;
+    cursor: pointer;
+}
+.menu li:hover{
+    color:#ff9c00
+}
+#account{
+    background-image: url(http://template39.sayt.az/websayt/app/Modules/sites/Templates/travel/assets/img/slider/slider.jpg);
+    background-repeat:no-repeat
+}
+#account h1{
+    font-size: 72px;
+}
+#account h3{
+    font-size: 30px;
+}
+#account span{
+    font-size: 24px;
+}
+.account-text{
+    padding: 162px 0px 112px 31%;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, .46);
+    color:#fff
+}
+#Hotels{
+    margin-top: 8rem;
+}
+#Hotels h5{
+    font-size: 28px;
+    line-height: 16px;
+    font-family: "Source Sans Pro Bold";
+    color: #333;
+    padding-left: 10px;
+    border-left: 4px solid #ff9c00;
+    margin: 25px 5.56%
+}
+
+.baku{
+    display: inline
+}
+.otel:hover{
+    box-shadow: 7px 1px 9px 0px rgb(168, 165, 165);
+
+}
+.otel:hover .otelprice{
+    background: #ff9c00;
+    
+}
+.otel{
+    display: flex;
+    justify-content: space-between;
+    border: .5px solid rgb(194, 193, 193);
+    align-items: center;
+    margin-bottom: 25px;
+    background: #f5f5f5;
+    transition: all .4s;
+}
+.otelname{
+    padding: 2%;
+   
+}
+.otelname h4{
+    font-size: 16px;
+    color: #333333;
+    padding-bottom: 25px;
+    cursor: pointer;
+}
+.otelname h4:hover{
+    color: #ff9c00
+}
+.otelname i{
+    font-size: 13px;
+    color: #585757;
+}
+.otelprice{
+    color: #fff;
+    background: #2c445a;
+    width: 59px;
+    height: 59px;
+    border-radius: 50%;
+    position: absolute;
+    left: 47%;
+    padding: 22px 6px;
+    font-weight: bold;
+    transition: all .3s ease-in;
+    cursor: pointer;
+}
+
+
+.otelphoto img{
+    height: 8rem;
+    cursor: pointer;
+}
+
+.otelname pre{
+    padding: 10px 2px;
+}
+
+#Turlar{
+    margin-top:7rem;
+}
+
+.city{
+    display: flex
+}
+.cityleft{
+    display: inline;
+    padding-right: 3rem;
+}
+.cityright{
+    display: inline;
+}
+.a{
+    display: flex;
+    border: .5px solid rgb(194, 193, 193);
+    width: 36rem;
+    margin-bottom: 15px;
+    box-shadow: 2px 0px 4px 0px rgb(112, 114, 223);
+    transition: all .5s ease
+}
+.a:hover{
+    box-shadow: 4px 0px 20px 2px rgb(167, 17, 17); 
+}
+.cityname{
+    padding: 19px 6%;
+    line-height: 24px;
+}
+.cityname h4{
+    font-size: 16px;
+    color: #333333;
+    cursor: pointer;
+}
+.cityname h4:hover{
+    color: #ff9c00;
+}
+.cityname i{
+    font-size: 15spx;
+    color: #333333; 
+}
+.cityprice{
+    font-size: 18px;
+    width: 78px;
+    float: right;
+    color: #fff;
+    padding: 30px 0px;
+    text-align: center;
+    border-radius: 50%;
+    background: #082f5f;
+    position: relative;
+    left: 11rem;
+    height: 5rem;
+    top: 15px;
+    font-weight: bold;
+    transition: all .3s ease-in;
+    cursor: pointer;
+    
+}
+#Turlar h5{
+    font-size: 22px;
+    line-height: 16px;
+    font-family: "Source Sans Pro Bold";
+    color: #333;
+    padding-left: 10px;
+    border-left: 4px solid #ff9c00;
+    margin-left: 5.56%;
+    margin-bottom: 20px;
+}
+.cityprice:hover{
+    background: #ff9c00
+}
+
+
+#Elaqe{
+    background: #f7faf9
+}
+
+#Elaqe h3{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5rem;
+}
+#Elaqe hr{
+    height: 6px;
+    background: #47b39d;
+    margin: 10px auto 0;
+    width: 29px;
+    border: none
+}
+.elaqebox{
+    padding: 2rem 23rem;
+}
+
+.elaqetop input{
+    padding: 10px 13% 10px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.elaqebottom input{
+    padding: 40px 23.8rem 40px 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.elaqesend{
+    padding: 15px 18.85rem;
+}
+.elaqesend input{
+    padding: 11px 8rem;
+    background: #47b39d;
+    border-radius: 2px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all;
+    border: 1px solid #ff9c00
+}
+.elaqesend input:hover{
+    box-shadow:0px 15px 7px 0px rgba(30,134,75,.38)
+}
+
+
+
+#Black{
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+
+.allblack{
+    display: flex;
+    justify-content: space-between;
+    line-height: 2;
+}
+.oteller{
+    display: grid
+}
+.contact{
+    display: grid
+}
+
+
+#Footer{
+    background-color: #0E0C0C;
+}
+.allfooter{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0
+}
+.footerleft{
+    padding: 6px 0px;
+}
+.footerleft img{
+    width: 7rem;
+}
+
+.footermid{
+    color: white;
+    font-size: 17px;
+    padding: 13px 0px;
+}
+
+.footerright img{
+    width: 3rem;
+    padding: 5px 0px;
+}

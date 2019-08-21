@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 47px;
+    background-color: #363d41;
+}
+.header-left{
+    margin-left: 7%;
+}
+.header-left i{
+    color: #b7b7b7;
+    border: 0.5px solid #b7b7b7;
+    height: 26px;
+    width: 29px;
+    border-radius: 71%;
+    margin-left: 5px;
+    margin-top: 11px;
+    padding-top: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .5s ease-in
+}
+.header-left i:hover{
+    color: #7f67f8;
+
+}
+
+.header-right{
+    font-size:21px;
+    color:#b7b7b7;
+    margin-left: 79%;
+    margin-top: -25px
+}
+.header-right span{
+    color: white;
+    cursor: pointer;
+    transition: all .5s
+}
+.header-right span:hover{
+    color:#7f67f8
+}
+.logo{
+    margin-left: 7.5%;
+    margin-top: 3%
+}
+.menubar{
+    margin-left: 40%;
+    margin-top: -2.2%
+}
+.menubar li{
+    display: inline;
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #363d41;
+    transition: all .5s;
+    cursor: pointer
+}
+.menubar li:hover{
+    color:#7f67f8
+}
+.third{
+    width: 100%
+}
+
+.foto{
+    background: url(https://livedemo00.template-help.com/wt_58888_v15/child/landing-startup/images/bg-image-1.jpg);
+    height: 120%;
+    margin-left: -19%;
+    margin-top: 3.5%;
+    
+}
+.third hr{
+    width: 8%;
+    margin-left: 30%;
+    line-height: 70rem;
+
+}
+.third-text{
+    position: relative;
+    top: 48%;
+    margin-left: 38%;
+    color: white;
+
+}
+
+.third-text h1{
+    font-size: 76px;
+    
+}
+.third-text p{
+    font-size: 33px;
+    font-weight: bold;
+    margin-left: 18%;
+    padding-top: 21px;
+    padding-bottom: 10%;
+
+    
+    
+}
+.third-text span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border: 2px solid white;
+    padding: 19px 32px;
+    margin-left: 20%;
+    cursor: pointer;
+    
+    
+}
+.third-text span:hover{
+    background: #7f67f8;
+    
+}
+.fourth{
+    width: 90%;
+    margin: auto;
+    margin-top: 10%
+       
+}
+.text-fourth h2{
+    font-size: 48px;
+    margin-left: 40%;
+    margin-top: -26px
+
+}.text-fourth p{
+    font-size: 18px;
+    color: #4B4B4B;
+    margin-left: 23%;
+    margin-top: 4%
+}
+.boxes{
+    display: flex;
+    margin-top: -2%;
+}
+.a{
+    text-align: center;
+    padding: 100px
+    
+}
+.a i{
+    font-size: 40px;
+    color: #f97c69
+}
+.a h5{
+    font-size: 22px;
+    line-height: 1.66667;
+    letter-spacing: .075em;
+    font-weight: 700;
+    padding-top: 20px;   
+}
+.a p{
+    color:#4B4B4B;
+    font-size: 17px;
+    margin: -45px;
+    margin-top: 10px
+}

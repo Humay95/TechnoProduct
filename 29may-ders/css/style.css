@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: red;
+    animation: qutu 5s infinite;
+    position: relative;
+    top:0 ;
+    left: 0;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background: black;
+    animation: qutu1 5s infinite;
+    position: absolute;
+    top:0;
+    left:400px;
+}
+@keyframes qutu{
+0%{
+    background: red;
+    left: 0;
+    top: 0;
+}
+25%{
+    background: green;
+    left: 200px;
+    top: 0;
+    transform: rotate(45deg) scale(1)
+}
+50%{
+    background: blue;
+    left: 200px;
+    top: 100px;
+    transform: rotate(90deg) scale(0.8)
+}
+75%{
+    background: orange;
+    left:0px;
+    top: 200px;
+    transform: rotate(135deg) scale(0.5)
+}
+100%{
+    background: brown;
+    left: 100px;
+    top: 0px;
+    transform: rotate(180deg) scale(0.3)
+}
+
+}
+@keyframes qutu1{
+    0%{
+        background: blue;
+        left: 600px;
+        top: 0;
+    }
+    25%{
+        background: green;
+        left: 500px;
+        top: 100px;
+        transform: rotate(45deg) scale(1)
+    }
+    50%{
+        background: blue;
+        left: 400px;
+        top: 200px;
+        transform: rotate(90deg) scale(0.8)
+    }
+    75%{
+        background: orange;
+        left:300px;
+        top: 300px;
+        transform: rotate(135deg) scale(0.5)
+    }
+    100%{
+        background: brown;
+        left:180px;
+        top: 0px;
+        transform: rotate(180deg) scale(0.3)
+    }
+}
